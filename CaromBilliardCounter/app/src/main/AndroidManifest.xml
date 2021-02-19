@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dimitriadism.carombilliardcounter">
+
+    <supports-screens
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:largeScreens="true"
+        android:xlargeScreens="true"
+        android:normalScreens="true"
+        android:anyDensity="true"/>
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Γαλλικό Μπιλιάρδο"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.dimitriadism.carombilliardcounter.MainActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.dimitriadism.carombilliardcounter.NamesActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.dimitriadism.carombilliardcounter.NewGameActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dimitriadism.carombilliardcounter.GamesList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dimitriadism.carombilliardcounter.PopUpWinner"
+            android:theme = "@style/AppTheme.CustomTheme"> </activity>  <!--allaksa to portrait, to evala sthn klash-->
+    </application>
+
+</manifest>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <gradient
+        android:angle="45"
+        android:endColor="#D1D1D1"
+        android:centerColor="#D1D1D1"
+        android:startColor="#D1D1D1" />
+
+    <corners android:radius="8dp" />
+    <size android:width="5dp"/> <!--paxos grammhs-->
+    <padding
+        android:left="1dp"
+        android:right="1dp" />
+
+</shape>

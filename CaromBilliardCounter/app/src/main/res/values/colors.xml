@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#454545</color>
+    <color name="bluelight">#49acd5</color>
+    <color name="orange">#eaad43</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="listItemPressed">#676767</color>989898
+    <color name="listItemSelected">#989898</color>
+</resources>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/colorPrimaryDark"
+    android:weightSum="100"
+    android:descendantFocusability="blocksDescendants"
+    android:baselineAligned="false">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="100"
+        android:background="@drawable/list_item_selector">
+
+        <TextView
+            android:id="@+id/date_id"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="75"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:text="TextView1"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            tools:ignore="HardcodedText,NestedWeights" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="75"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/player1Name"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:ellipsize="end"
+                android:gravity="center|center_horizontal|center_vertical"
+                android:maxLines="1"
+                android:padding="2dp"
+                android:text="TextView2"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/player1Score"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center|center_horizontal|center_vertical"
+                android:padding="2dp"
+                android:text="TextView3"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="75"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/player2Name"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:ellipsize="end"
+                android:gravity="center|center_horizontal|center_vertical"
+                android:maxLines="1"
+                android:padding="2dp"
+                android:text="TextView5"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/player2Score"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center|center_horizontal|center_vertical"
+                android:padding="2dp"
+                android:text="TextView7"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/removeRow"
+            android:layout_width="58dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/delete_button_listview"
+            android:contentDescription="TODO"
+            android:focusable="false"
+            android:onClick="DeleteGame"
+            android:tint="#FFFFFF"
+            app:srcCompat="@android:drawable/ic_menu_delete"
+            tools:ignore="ContentDescription,HardcodedText" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

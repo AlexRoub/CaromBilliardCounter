@@ -1,0 +1,86 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.dimitriadism.carombilliardcounter"
+4    android:versionCode="2"
+5    android:versionName="1.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\miltos\AndroidStudioProjects\CaromBilliardCounter\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\miltos\AndroidStudioProjects\CaromBilliardCounter\app\src\main\AndroidManifest.xml
+10
+11    <supports-screens
+11-->C:\Users\miltos\AndroidStudioProjects\CaromBilliardCounter\app\src\main\AndroidManifest.xml:5:5-11:36
+12        android:anyDensity="true"
+12-->C:\Users\miltos\AndroidStudioProjects\CaromBilliardCounter\app\src\main\AndroidManifest.xml:11:9-34
+13        android:largeScreens="true"
+13-->C:\Users\miltos\AndroidStudioProjects\CaromBilliardCounter\app\src\main\AndroidManifest.xml:8:9-36
+14        android:normalScreens="true"
+14-->C:\Users\miltos\AndroidStudioProjects\CaromBilliardCounter\app\src\main\AndroidManifest.xml:10:9-37
+15        android:resizeable="true"
+15-->C:\Users\miltos\AndroidStudioProjects\CaromBilliardCounter\app\src\main\AndroidManifest.xml:6:9-34
+16        android:smallScreens="true"
+16-->C:\Users\miltos\AndroidStudioProjects\CaromBilliardCounter\app\src\main\AndroidManifest.xml:7:9-36
+17        android:xlargeScreens="true" />
+17-->C:\Users\miltos\AndroidStudioProjects\CaromBilliardCounter\app\src\main\AndroidManifest.xml:9:9-37
+18
+19    <application
+19-->C:\Users\miltos\AndroidStudioProjects\CaromBilliardCounter\app\src\main\AndroidManifest.xml:13:5-37:19
+20        android:allowBackup="false"
+20-->C:\Users\miltos\AndroidStudioProjects\CaromBilliardCounter\app\src\main\AndroidManifest.xml:14:9-36
+21        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+21-->[com.android.support:support-compat:28.0.0] C:\Users\miltos\.gradle\caches\transforms-2\files-2.1\0b9593fbb2dcde7397582f8d667e1ce4\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Users\miltos\AndroidStudioProjects\CaromBilliardCounter\app\src\main\AndroidManifest.xml:15:9-43
+23        android:label="Γαλλικό Μπιλιάρδο"
+23-->C:\Users\miltos\AndroidStudioProjects\CaromBilliardCounter\app\src\main\AndroidManifest.xml:16:9-42
+24        android:supportsRtl="true"
+24-->C:\Users\miltos\AndroidStudioProjects\CaromBilliardCounter\app\src\main\AndroidManifest.xml:17:9-35
+25        android:theme="@style/AppTheme" >
+25-->C:\Users\miltos\AndroidStudioProjects\CaromBilliardCounter\app\src\main\AndroidManifest.xml:18:9-40
+26        <activity
+26-->C:\Users\miltos\AndroidStudioProjects\CaromBilliardCounter\app\src\main\AndroidManifest.xml:19:9-24:20
+27            android:name="com.dimitriadism.carombilliardcounter.MainActivity"
+27-->C:\Users\miltos\AndroidStudioProjects\CaromBilliardCounter\app\src\main\AndroidManifest.xml:19:19-84
+28            android:screenOrientation="portrait" >
+28-->C:\Users\miltos\AndroidStudioProjects\CaromBilliardCounter\app\src\main\AndroidManifest.xml:19:85-121
+29            <intent-filter>
+29-->C:\Users\miltos\AndroidStudioProjects\CaromBilliardCounter\app\src\main\AndroidManifest.xml:20:13-23:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\miltos\AndroidStudioProjects\CaromBilliardCounter\app\src\main\AndroidManifest.xml:21:17-69
+30-->C:\Users\miltos\AndroidStudioProjects\CaromBilliardCounter\app\src\main\AndroidManifest.xml:21:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\miltos\AndroidStudioProjects\CaromBilliardCounter\app\src\main\AndroidManifest.xml:22:17-77
+32-->C:\Users\miltos\AndroidStudioProjects\CaromBilliardCounter\app\src\main\AndroidManifest.xml:22:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity
+35-->C:\Users\miltos\AndroidStudioProjects\CaromBilliardCounter\app\src\main\AndroidManifest.xml:25:9-27:51
+36            android:name="com.dimitriadism.carombilliardcounter.NamesActivity"
+36-->C:\Users\miltos\AndroidStudioProjects\CaromBilliardCounter\app\src\main\AndroidManifest.xml:26:13-79
+37            android:screenOrientation="portrait" />
+37-->C:\Users\miltos\AndroidStudioProjects\CaromBilliardCounter\app\src\main\AndroidManifest.xml:27:13-49
+38        <activity
+38-->C:\Users\miltos\AndroidStudioProjects\CaromBilliardCounter\app\src\main\AndroidManifest.xml:28:9-30:52
+39            android:name="com.dimitriadism.carombilliardcounter.NewGameActivity"
+39-->C:\Users\miltos\AndroidStudioProjects\CaromBilliardCounter\app\src\main\AndroidManifest.xml:29:13-81
+40            android:screenOrientation="portrait" />
+40-->C:\Users\miltos\AndroidStudioProjects\CaromBilliardCounter\app\src\main\AndroidManifest.xml:30:13-49
+41        <activity
+41-->C:\Users\miltos\AndroidStudioProjects\CaromBilliardCounter\app\src\main\AndroidManifest.xml:31:9-33:52
+42            android:name="com.dimitriadism.carombilliardcounter.GamesList"
+42-->C:\Users\miltos\AndroidStudioProjects\CaromBilliardCounter\app\src\main\AndroidManifest.xml:32:13-75
+43            android:screenOrientation="portrait" />
+43-->C:\Users\miltos\AndroidStudioProjects\CaromBilliardCounter\app\src\main\AndroidManifest.xml:33:13-49
+44        <activity
+44-->C:\Users\miltos\AndroidStudioProjects\CaromBilliardCounter\app\src\main\AndroidManifest.xml:34:9-36:71
+45            android:name="com.dimitriadism.carombilliardcounter.PopUpWinner"
+45-->C:\Users\miltos\AndroidStudioProjects\CaromBilliardCounter\app\src\main\AndroidManifest.xml:35:13-77
+46            android:theme="@style/AppTheme.CustomTheme" >
+46-->C:\Users\miltos\AndroidStudioProjects\CaromBilliardCounter\app\src\main\AndroidManifest.xml:36:13-58
+47        </activity> <!-- allaksa to portrait, to evala sthn klash -->
+48    </application>
+49
+50</manifest>
