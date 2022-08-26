@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/CaromBilliardCounter.iml" filepath="$PROJECT_DIR$/.idea/modules/CaromBilliardCounter.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CaromBilliardCounter.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CaromBilliardCounter.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CaromBilliardCounter.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CaromBilliardCounter.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CaromBilliardCounter.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CaromBilliardCounter.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CaromBilliardCounter.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CaromBilliardCounter.app.unitTest.iml" />
     </modules>
   </component>
 </project>
